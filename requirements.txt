@@ -2,3 +2,4 @@ netmiko
 napalm
 napalm-ansible
 nornir
+junos-eznc
