@@ -13,6 +13,4 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update && apt-get -y --no-install-rec
     && rm -rf /var/lib/apt/lists/* \
     && pip3 install virtualenv \
     && virtualenv -p python3 net-dev \
-   # && /bin/sh -c "source /net-dev/bin/activate" \
-   # && pip3 install -r /home/requirements.txt \
-   # && deactivate
+    && /bin/bash -c "source /net-dev/bin/activate && pip3 install -r /home/requirements.txt" \
