@@ -7,7 +7,7 @@ COPY ["./requirements.txt", "/home/requirements.txt"]
 RUN DEBIAN_FRONTEND=noninteractive apt-get update && apt-get -y --no-install-recommends \
     install telnet curl openssh-client nano vim-tiny iputils-ping python build-essential \
     libssl-dev libffi-dev python-pip python3-pip python-setuptools python3-setuptools \
-    python-dev net-tools python3 software-properties-common \
+    python-dev net-tools python3 software-properties-common tcptraceroute \
     && apt-add-repository -y ppa:ansible/ansible \
     && apt-get -qq update && apt-get -y --no-install-recommends install ansible \
     && rm -rf /var/lib/apt/lists/* \
