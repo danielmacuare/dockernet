@@ -2,6 +2,7 @@
 
 This Dockerfile comes handy when working with Network automation projects. The image is based on Ubuntu 18.04
 
+## Included
 1. Packages Included:
 
 ```
@@ -12,7 +13,6 @@ nano
 vim-tiny
 tcptraceroute
 ```
-
 
 2. Python modules
 ```
