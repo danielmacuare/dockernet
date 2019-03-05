@@ -7,11 +7,13 @@ This Dockerfile comes handy when working with Network automation projects. The i
 
 ```
 python2 and 3
+mtr
+tcpdump
+tcptraceroute
 ansible
 curl
 nano
 vim-tiny
-tcptraceroute
 ```
 
 2. Python modules
