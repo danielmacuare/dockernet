@@ -46,7 +46,7 @@ docker build -f Dockerfile -t danmac/dockernet:18.04 .
 
 4. Run and access the container via bash.
 ```
-docker run -it --rm --name dockernet -t danmac/dockernet:18.04 /bin/bash
+docker run -it --rm --name dockernet -t danmac/dockernet:18.04
 ```
 
 4. Enjoy!
